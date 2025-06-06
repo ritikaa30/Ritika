@@ -8,8 +8,36 @@
 <body>
     <a href="about.html" target = "_self">About page</a> <br/>
     <a href="table.html" target = "_self"> Visit Table</a> <br/>
-    <a href="form.html" target = "_self"> Visit Form</a>
-    
+    <a href="form.html" target = "_self"> Visit Form</a> <br />
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/FYErehuSuuw?si=FdK9jlKVNZc4lY0i" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br /> -->
+    <a href="portfolio.html" target = "_self"> Visit Portfolio</a> <br />
+    <a href="parent.html" target = "_self"> Visit Parent page</a><br />
+    <a href="position.html" target = "_self"> Visit Position Page</a><br />
+    <a href="display.html" target = "_self"> Visit Display page</a><br />   
+    <a href="grid.html" target = "_self"> Visit grid page</a></br>
+    <a href="rock.html" target = "_self"> Visit Game page</a></br>
+
+
+    <!-- <script>
+        console.log('hello from script');
+        console.log(5=='5');
+        console.log(5==='5');
+
+    </script> -->
+<br>
+<input type="text" id="name">
+<button onclick=showName()>click</button>
+<h1 id="result">Hi</h1>
+</input>
+<script>
+    function showName()
+    {
+        const name=document.getElementById('name').value 
+        document.getElementById('result').innerText=`Hello${name}`
+    }
+</script>
 
 </body>
 </html>
